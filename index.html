@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="UTF-8" />
+    <title>Caleb Strait</title>
+
+    <!-- ====== Google Fonts ====== -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600"
+      rel="stylesheet"
+    />
+
+    <!-- ====== ALL CSS ====== -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="assets/css/lightbox.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar-nav">
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="spinner">
+        <div class="cube1"></div>
+        <div class="cube2"></div>
+      </div>
+    </div>
+    <!-- // Preloader -->
+
+    <!-- ====== Header ====== -->
+    <header id="header" class="header">
+      <!-- ====== Navbar ====== -->
+      <nav class="navbar navbar-expand-lg fixed-top gray">
+        <div class="container">
+          <!-- Name -->
+          <a class="navbar-name" href="index.html"> Caleb Strait </a>
+          <!-- // Name -->
+
+          <!-- Mobile Menu -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-expanded="false"
+          >
+            <span><i class="fa fa-bars"></i></span>
+          </button>
+          <!-- Mobile Menu -->
+
+          <div
+            class="collapse navbar-collapse main-menu"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#discourser">Discourser</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pr0" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- ====== // Navbar ====== -->
+    </header>
+    <!-- ====== // Header ====== -->
+
+    <!-- ====== About Area ====== -->
+    <section id="about" class="section-padding about-area bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="assets/images/ProfileCircle.png" class="about-bg">
+          </div>
+          <div class="col-lg-6">
+            <div class="about-content">
+              <h2>Hi! I'm <span>Caleb Strait</span></h2>
+              <p>
+                I'm a cognitive scientist & data scientist specializing in human decision-making processes and their shortfalls. My doctoral work focused on applying machine learning techniques to neural data collected mid-decision. Professionally I build models to support medical decisions in healthcare and clinical trial settings. In my spare time I work on my conversation framework mobile app, Discourser, which I've designed from the ground-up to encourage opinion convergance among participants.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====== // About Area ====== -->
+
+    <!-- ====== Discourser ====== -->
+    <section id="discourser" class="section-padding faq-area bg-secondary">
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-lg-5" style="min-height: 500px; max-width: 30%">
+            <div
+              class="faq-bg"
+              style="background-image: url(assets/images/app_image.png)"
+            ></div>
+          </div>
+          <div class="col-lg-7">
+            <!-- Section Title -->
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                <div class="section-title text-center faq-title">
+                    <h2>Discourser</h2>
+                    <p>A mobile app framework for productive discussions</p>
+                </div>
+                </div>
+            </div>
+            <!-- //Section Title -->
+            <!-- Discourser Items -->
+            <div class="faq-content" id="accordion">
+              <!-- Single Discourser 1 -->
+              <div class="single-faq">
+                <!-- Header 1 -->
+                <h4
+                  class="collapsed"
+                  data-target="#faq-1"
+                >
+                  Tree framework
+                </h4>
+                <!-- // Header 1 -->
+
+                <!-- Discourser Content 1 -->
+                <div id="faq-1" class="collapse.show" data-parent="#accordion">
+                  <div class="faq-body">
+                    Discourser uses a tree framework for the visualization of an argument’s
+                    structure. The argument begins, in this case, as a central statement to
+                    be accepted or rejected. The central statement can be given any number
+                    of sub-statements, which are each explicitly designated as a supporting
+                    statement or a dissenting statement. Each sub-statement can also have
+                    any number of its own supporting or dissenting sub-statements. This
+                    recursive structure allows participants to fully document the intricacies
+                    of not only the supporting and dissenting sub-statements pertaining to
+                    a central statement, but also to suss out the strength of each of those
+                    sub-statements through the same system as with the central statement: a
+                    series of supporting and dissenting sub-statements.
+                  </div>
+                </div>
+                <!-- // Discourser Content 1 -->
+              </div>
+              <!-- // Single Discourser 1 -->
+
+              <!-- Single Discourser 2 -->
+              <div class="single-faq">
+                <!-- Header 2 -->
+                <h4
+                  class="collapsed"
+                  data-target="#faq-2"
+                >
+                  Agreement scores
+                </h4>
+                <!-- // Header 2-->
+
+                <!-- Discourser Content 2 -->
+                <div id="faq-2" class="collapse.show" data-parent="#accordion">
+                  <div class="faq-body">
+                    Discourser maintains agreement scores for each statement that is added
+                    to a conversation, allowing for full documentation of participants’
+                    relevant opinions on each part of the argument. Similar to how online
+                    comment sections allow for the vote-based finding of the best text-based
+                    argument, agreement scores give us a way to sort out how convincing parts
+                    of the argument are separately from one another, as segmented via the
+                    tree framework.
+                  </div>
+                </div>
+                <!-- // Discourser Content 2-->
+              </div>
+              <!-- // Single Discourser 2 -->
+
+            </div>
+            <!-- Discourser Items -->
+            <div class="tos-pp">
+              <a href="discourser_tos.html" class="tos-pp-text">
+                Terms of Service & Privacy Policy
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====== // Discourser ====== -->
+
+    <!-- ====== Contact Area ====== -->
+    <section id="contact" class="section-padding contact-section bg-dark">
+      <div class="container">
+        <!-- Section Title -->
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="section-title-white text-center">
+              <h2>Contact Me</h2>
+            </div>
+          </div>
+        </div>
+        <!-- //Section Title -->
+
+        <!-- Contact Form -->
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <!-- Form -->
+            <form
+              id="contact-form"
+              action="mail.php"
+              method="post"
+              class="contact-form bg-white"
+            >
+              <div class="row">
+                <div class="col-lg-6 form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="name"
+                    required
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="col-lg-6 form-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    name="email"
+                    required
+                    placeholder="Email"
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  name="subject"
+                  required
+                  placeholder="Subject"
+                />
+              </div>
+
+              <div class="form-group">
+                <textarea
+                  name="message"
+                  id=""
+                  class="form-control"
+                  required
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <div class="form-btn text-center">
+                <button class="button" type="submit">Send Message</button>
+                <p class="form-message"></p>
+              </div>
+            </form>
+            <!-- // Form -->
+          </div>
+        </div>
+        <!-- // Contact Form -->
+      </div>
+    </section>
+    <!-- ====== // Contact Area ====== -->
+
+    <!-- ====== Footer Area ====== -->
+    <footer class="footer-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <div class="copyright-text">
+              <p class="text-white">
+                &copy;
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                Caleb Strait
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ====== // Footer Area ====== -->
+
+    <!-- ====== ALL JS ====== -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/lightbox.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.mixitup.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/typed.js"></script>
+    <script src="assets/js/skill.bar.js"></script>
+    <script src="assets/js/fact.counter.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

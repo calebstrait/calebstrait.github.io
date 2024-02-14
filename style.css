@@ -31,7 +31,7 @@ a {
 }
 
 a:hover {
-    color: #00bbff;
+    color: #015cb9;
     text-decoration: none;
 }
 
@@ -103,7 +103,7 @@ img {
 }
 
 .bg-secondary {
-    background-color: #00bbff !important;
+    background-color: #015cb9 !important;
 }
 
 button:focus {
@@ -135,7 +135,7 @@ button:focus {
 
 .cube1,
 .cube2 {
-    background-color: #00bbff;
+    background-color: #015cb9;
     width: 25px;
     height: 25px;
     position: absolute;
@@ -221,17 +221,25 @@ button:focus {
 .section-title h2:before {
     left: auto;
     right: 50%;
-    background-color: #00bbff
+    background-color: #015cb9
 }
 
-.section-title-white h2 {
+.section-title-white-narrow h2 {
     position: relative;
     font-size: 32px;
     padding-bottom: 15px;
     margin-bottom: 15px;
     line-height: 1;
     color: white;
-}
+} p {color: white;}
+
+.section-title-white h2 {
+    position: relative;
+    font-size: 32px;
+    margin-bottom: 15px;
+    line-height: 1;
+    color: white;
+} p {color: white;}
 
 /*::::::::::::::::::::::::::::::::::::
    Main Menu
@@ -250,7 +258,7 @@ button:focus {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link:hover {
-    color: #00bbff;
+    color: #015cb9;
 }
 
 .gray {
@@ -274,7 +282,7 @@ button:focus {
 }
 
 .about-content span {
-    color: #2a2d3e;
+    color: #1088ff;
     font-size: 100%;
 }
 
@@ -365,11 +373,11 @@ button:focus {
 }
 
 .tos-pp-text {
-    color: #000;
+    color: #fff;
 }
 
 a:link {
-    color: #000;
+    color: #fff;
 }
 
 
@@ -448,8 +456,8 @@ input:-webkit-autofill {
 }
 
 .form-btn .button:hover {
-    color: #00bbff;
-    background-color: #00bbff;
+    color: #015cb9;
+    background-color: #2a2d3e;
 }
 
 .form-message {
@@ -473,7 +481,7 @@ input:-webkit-autofill {
 .footer-area {
     padding: 20px;
     background-color: #000;
-    border-bottom: 5px solid #00bbff;
+    border-bottom: 5px solid #015cb9;
 }
 
 .copyright-text a {
@@ -483,5 +491,5 @@ input:-webkit-autofill {
 }
 
 .copyright-text a:hover {
-    color: #00bbff;
+    color: #015cb9;
 }

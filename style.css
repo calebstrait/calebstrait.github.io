@@ -31,7 +31,7 @@ a {
 }
 
 a:hover {
-    color: #2a2d3e;
+    color: #00bbff;
     text-decoration: none;
 }
 
@@ -103,7 +103,7 @@ img {
 }
 
 .bg-secondary {
-    background-color: #2a2d3e !important;
+    background-color: #00bbff !important;
 }
 
 button:focus {
@@ -135,7 +135,7 @@ button:focus {
 
 .cube1,
 .cube2 {
-    background-color: #2a2d3e;
+    background-color: #00bbff;
     width: 25px;
     height: 25px;
     position: absolute;
@@ -221,7 +221,7 @@ button:focus {
 .section-title h2:before {
     left: auto;
     right: 50%;
-    background-color: #2a2d3e
+    background-color: #00bbff
 }
 
 .section-title-white h2 {
@@ -250,7 +250,7 @@ button:focus {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link:hover {
-    color: #2a2d3e;
+    color: #00bbff;
 }
 
 .gray {
@@ -448,8 +448,8 @@ input:-webkit-autofill {
 }
 
 .form-btn .button:hover {
-    color: #2a2d3e;
-    background-color: #2a2d3e;
+    color: #00bbff;
+    background-color: #00bbff;
 }
 
 .form-message {
@@ -473,7 +473,7 @@ input:-webkit-autofill {
 .footer-area {
     padding: 20px;
     background-color: #000;
-    border-bottom: 5px solid #2a2d3e;
+    border-bottom: 5px solid #00bbff;
 }
 
 .copyright-text a {
@@ -483,5 +483,5 @@ input:-webkit-autofill {
 }
 
 .copyright-text a:hover {
-    color: #2a2d3e;
+    color: #00bbff;
 }

@@ -12,9 +12,19 @@
 */
 
 /*============Global Style================ */
+
+.visibledevice {display:none;}
+.visibledesktop {display:display;}
+
+@media (max-width : 320px) {
+    .visibledevice {display:block;}
+    .visibledesktop {display:none;}
+}
+
 html,
 body {
     height: 100%;
+    overflow-x: hidden;
 }
 
 p {
@@ -78,8 +88,12 @@ img {
     background-color: #000;
 }
 
+.top-padding {
+    padding: 100px 50px 50px 50px;
+}
+
 .section-padding {
-    padding: 50px 0;
+    padding: 50px 0px;
 }
 
 .pb-70 {
@@ -228,7 +242,6 @@ button:focus {
     position: relative;
     font-size: 32px;
     padding-bottom: 15px;
-    margin-bottom: 15px;
     line-height: 1;
     color: white;
 } p {color: white;}
@@ -268,10 +281,6 @@ button:focus {
 /*::::::::::::::::::::::::::::::::::::
    About Area
 ::::::::::::::::::::::::::::::::::::*/
-
-.about-area {
-    margin-top: 50px;
-}
 
 .about-bg {
     max-width: 200px;
@@ -387,20 +396,23 @@ a:link {
 
 .contact-form {
     padding: 20px;
-    box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #181818;
+    background-color: #181818;
 }
 
 .contact-form .form-control {
-    background-color: #f8f9fa;
+    background-color: #3e3e3e;
     font-size: 14px;
     padding: 10px;
     border: none;
     border-radius: 0;
+    color: #ffffff
 }
 
 .contact-form .form-control:active {
     box-shadow: 0 0 0;
-    background-color: #f8f9fa;
+    background-color: #3e3e3e;
+    
 }
 
 
@@ -414,31 +426,31 @@ input:-webkit-autofill {
 }
 
 .form-control::-webkit-input-placeholder {
-    color: #494949;
+    color: #f8f9fa;
 }
 
 .form-control:-ms-input-placeholder {
-    color: #494949;
+    color: #f8f9fa;
 }
 
 .form-control::-ms-input-placeholder {
-    color: #494949;
+    color: #f8f9fa;
 }
 
 .form-control::-webkit-input-placeholder {
-    color: #494949;
+    color: #f8f9fa;
 }
 
 .form-control::-moz-placeholder {
-    color: #494949;
+    color: #f8f9fa;
 }
 
 .form-control:-ms-input-placeholder {
-    color: #494949;
+    color: #f8f9fa;
 }
 
 .form-control::placeholder {
-    color: #494949;
+    color: #f8f9fa;
 }
 
 .form-control:focus {

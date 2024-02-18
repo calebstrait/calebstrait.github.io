@@ -16,8 +16,8 @@
 .visibledevice {display:none;}
 .visibledesktop {display:display;}
 
-@media (max-width : 320px) {
-    .visibledevice {display:block;}
+@media (max-width : 599px) {
+    .visibledevice {display:display;}
     .visibledesktop {display:none;}
 }
 
@@ -331,6 +331,14 @@ button:focus {
 .faq-bg {
     min-width: 200%;
     min-height: 200%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.faq-bg-2 {
+    min-width: 500px;
+    min-height: 500px;
+    display: block;
     background-size: contain;
     background-repeat: no-repeat;
 }

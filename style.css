@@ -13,6 +13,12 @@
 
 /*============Global Style================ */
 
+@media (min-width: 970px) and (max-width: 2500px) {
+    .container {
+       width: 970px;
+    }   
+ }
+
 .visibledevice {display:none;}
 .visibledesktop {display:display;}
 
@@ -21,9 +27,12 @@
     .visibledesktop {display:none;}
 }
 
-html,
+html {
+    height: 100%
+}
+
 body {
-    height: 100%;
+    min-height: 100%;
     overflow-x: hidden;
 }
 
@@ -94,6 +103,10 @@ img {
 
 .section-padding {
     padding: 50px 0px;
+}
+
+.discourser-area {
+    height: 100%;
 }
 
 .pb-70 {
@@ -502,6 +515,7 @@ input:-webkit-autofill {
     padding: 20px;
     background-color: #000;
     border-bottom: 5px solid #015cb9;
+    overflow: hidden
 }
 
 .copyright-text a {

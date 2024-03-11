@@ -13,17 +13,6 @@
 
 /*============Global Style================ */
 
-@media (min-width: 970px) and (max-width: 5000px) {
-   .container {
-      width: 970px;
-   }   
-}
-@media (min-height: 600) and (max-height: 5000px) {
-    .container {
-       width: 970px;
-    }   
- }
-
 .visibledevice {display:none;}
 .visibledesktop {display:display;}
 
@@ -110,7 +99,7 @@ img {
 }
 
 .discourser-area {
-    height: 100%;
+    height: 740px;
 }
 
 .pb-70 {

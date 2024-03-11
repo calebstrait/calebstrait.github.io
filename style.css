@@ -14,10 +14,10 @@
 /*============Global Style================ */
 
 @media (min-width: 970px) and (max-width: 2500px) {
-    .container {
-       width: 970px;
-    }   
- }
+   .container {
+      width: 970px;
+   }   
+}
 
 .visibledevice {display:none;}
 .visibledesktop {display:display;}

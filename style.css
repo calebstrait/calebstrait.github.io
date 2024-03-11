@@ -18,6 +18,11 @@
       width: 970px;
    }   
 }
+@media (min-height: 600) and (max-height: 5000px) {
+    .container {
+       width: 970px;
+    }   
+ }
 
 .visibledevice {display:none;}
 .visibledesktop {display:display;}
@@ -27,12 +32,11 @@
     .visibledesktop {display:none;}
 }
 
-html {
-    height: 100%
-}
-
-body {
-    min-height: 100%;
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
     overflow-x: hidden;
 }
 
@@ -515,7 +519,6 @@ input:-webkit-autofill {
     padding: 20px;
     background-color: #000;
     border-bottom: 5px solid #015cb9;
-    overflow: hidden
 }
 
 .copyright-text a {

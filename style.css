@@ -408,13 +408,18 @@ a:link {
    Blog Area 
 ::::::::::::::::::::::::::::::::::::*/
 
-.blog-content {
+.blog-header {
     text-align: center;
 }
 
-.blog-content h2 {
+.blog-header h2 {
     color: #fff;
     font-size: 200%;
+}
+
+.blog-content h6 {
+    color: #fff;
+    font-size: 120%;
 }
 
 

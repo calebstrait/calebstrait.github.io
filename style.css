@@ -417,11 +417,14 @@ a:link {
     font-size: 200%;
 }
 
-.blog-content h6 {
+.blog-title h6 {
     color: #fff;
     font-size: 120%;
 }
 
+.blog-title {
+    margin-bottom: 10px;
+}
 
 /*::::::::::::::::::::::::::::::::::::
    Contact Area 

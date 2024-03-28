@@ -95,6 +95,10 @@ img {
     padding: 100px 50px 50px 50px;
 }
 
+.top-part-padding {
+    padding: 50px 50px 50px 50px;
+}
+
 .section-padding {
     padding: 50px 0px 80px 0px;
 }
@@ -398,6 +402,19 @@ button:focus {
 
 a:link {
     color: #fff;
+}
+
+/*::::::::::::::::::::::::::::::::::::
+   Blog Area 
+::::::::::::::::::::::::::::::::::::*/
+
+.blog-content {
+    text-align: center;
+}
+
+.blog-content h2 {
+    color: #fff;
+    font-size: 200%;
 }
 
 
